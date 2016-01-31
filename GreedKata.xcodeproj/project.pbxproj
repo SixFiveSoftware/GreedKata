@@ -13,6 +13,11 @@
 		2089D2831C5DB2B700ECCDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2089D2821C5DB2B700ECCDAD /* Assets.xcassets */; };
 		2089D2861C5DB2B700ECCDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2089D2841C5DB2B700ECCDAD /* LaunchScreen.storyboard */; };
 		2089D2911C5DB2B700ECCDAD /* GreedKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089D2901C5DB2B700ECCDAD /* GreedKataTests.swift */; };
+		2089D29E1C5DB32300ECCDAD /* RollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089D29D1C5DB32300ECCDAD /* RollerTests.swift */; };
+		2089D2A01C5DB34B00ECCDAD /* Greed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089D29F1C5DB34B00ECCDAD /* Greed.swift */; };
+		2089D2A21C5DB36800ECCDAD /* Roller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089D2A11C5DB36800ECCDAD /* Roller.swift */; };
+		2089D2A41C5DB37E00ECCDAD /* ScoreKeeper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089D2A31C5DB37E00ECCDAD /* ScoreKeeper.swift */; };
+		2089D2A61C5DB39900ECCDAD /* ScoreKeeperType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2089D2A51C5DB39900ECCDAD /* ScoreKeeperType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		2089D28C1C5DB2B700ECCDAD /* GreedKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreedKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2089D2901C5DB2B700ECCDAD /* GreedKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreedKataTests.swift; sourceTree = "<group>"; };
 		2089D2921C5DB2B700ECCDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2089D29D1C5DB32300ECCDAD /* RollerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollerTests.swift; sourceTree = "<group>"; };
+		2089D29F1C5DB34B00ECCDAD /* Greed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greed.swift; sourceTree = "<group>"; };
+		2089D2A11C5DB36800ECCDAD /* Roller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roller.swift; sourceTree = "<group>"; };
+		2089D2A31C5DB37E00ECCDAD /* ScoreKeeper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeper.swift; sourceTree = "<group>"; };
+		2089D2A51C5DB39900ECCDAD /* ScoreKeeperType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreKeeperType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				2089D27B1C5DB2B700ECCDAD /* AppDelegate.swift */,
+				2089D29F1C5DB34B00ECCDAD /* Greed.swift */,
+				2089D2A11C5DB36800ECCDAD /* Roller.swift */,
+				2089D2A31C5DB37E00ECCDAD /* ScoreKeeper.swift */,
+				2089D2A51C5DB39900ECCDAD /* ScoreKeeperType.swift */,
 				2089D27D1C5DB2B700ECCDAD /* ViewController.swift */,
 				2089D27F1C5DB2B700ECCDAD /* Main.storyboard */,
 				2089D2821C5DB2B700ECCDAD /* Assets.xcassets */,
@@ -91,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				2089D2901C5DB2B700ECCDAD /* GreedKataTests.swift */,
+				2089D29D1C5DB32300ECCDAD /* RollerTests.swift */,
 				2089D2921C5DB2B700ECCDAD /* Info.plist */,
 			);
 			path = GreedKataTests;
@@ -197,8 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2089D2A01C5DB34B00ECCDAD /* Greed.swift in Sources */,
+				2089D2A41C5DB37E00ECCDAD /* ScoreKeeper.swift in Sources */,
+				2089D2A61C5DB39900ECCDAD /* ScoreKeeperType.swift in Sources */,
 				2089D27E1C5DB2B700ECCDAD /* ViewController.swift in Sources */,
 				2089D27C1C5DB2B700ECCDAD /* AppDelegate.swift in Sources */,
+				2089D2A21C5DB36800ECCDAD /* Roller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2089D2911C5DB2B700ECCDAD /* GreedKataTests.swift in Sources */,
+				2089D29E1C5DB32300ECCDAD /* RollerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
